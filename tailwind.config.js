@@ -17,6 +17,7 @@ export default {
       },
       fontSize: {
         "4.5xl": ["2.5rem", { lineHeight: "3rem" }],
+        "5.5xl": ["3.5rem", { lineHeight: "1" }],
         "7.5xl": ["5rem", { lineHeight: "1" }],
         "8.5xl": ["6.5rem", { lineHeight: "1" }],
         "9.5xl": ["7.5rem", { lineHeight: "1" }],
