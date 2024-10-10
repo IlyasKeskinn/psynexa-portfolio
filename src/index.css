@@ -5,7 +5,8 @@
 
 @font-face {
   font-family: "MyCustomFont";
-  src: url("./assets/fonts/clash_display/ClashDisplay-Variable.ttf") format("truetype");
+  src: url("./assets/fonts/clash_display/ClashDisplay-Variable.ttf")
+    format("truetype");
 }
 
 :root {
@@ -34,11 +35,10 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  @apply font-clashDisplay
+  @apply font-clashDisplay;
+  @apply bg-background;
 }
 
 h1 {
