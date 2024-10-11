@@ -18,8 +18,8 @@ const Hero = () => {
                 <img src={leftPinkBrackets} alt="leftbrackets" />
             </div>
             {/* The asterisk on the bottom right */}
-            <div className='absolute  -bottom-6 right-4 transform'>
-                <img src={asterisk} alt="asterisk" />
+            <div className='absolute -bottom-6 right-4 transform w-12 h-12'>
+                <img src={asterisk} alt="asterisk"/>
             </div>
             {/* The container for the hero content */}
             <div id="hero-container" className="container mx-auto relative z-10 lg:py-0 py-10">

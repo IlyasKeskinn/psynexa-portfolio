@@ -12,7 +12,7 @@ const Testimonial = ({ number, label1, label2, isMiddle }) => {
 }
 
 Testimonial.propTypes = {
-    number: PropTypes.number.isRequired,
+    number: PropTypes.string.isRequired,
     label1: PropTypes.string.isRequired,
     label2: PropTypes.string.isRequired,
     isMiddle: PropTypes.bool,

@@ -19,7 +19,7 @@ const Skill = ({ number, skill_name, skill_description, color, lastElement = fal
 Skill.propTypes = {
     number: PropTypes.string.isRequired,
     skill_name: PropTypes.string.isRequired,
-    skill_description: PropTypes.string.isRequired,
+    skill_description: PropTypes.string,
     color: PropTypes.string.isRequired,
     lastElement: PropTypes.bool,
 }

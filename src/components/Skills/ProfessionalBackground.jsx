@@ -3,7 +3,7 @@ import MySkills from "./MySkills"
 const ProfessionalBackground = () => {
     return (
         <div className="mx-auto max-w-[450px]">
-            <div>
+            <div className="mb-5">
                 <h4 className="font-semibold text-5.5xl">
                     My Professional Background
                 </h4>
