@@ -62,7 +62,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-
+        <div className="hidden bg-customPurple"></div>
         <div className="flex items-center justify-center my-12">
           © 2023 - Thisuix. All Rights Reserved.
         </div>

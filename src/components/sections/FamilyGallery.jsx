@@ -2,7 +2,7 @@ import GalleryCarousel from "../Gallery/GalleryCarousel";
 
 const FamilyGallery = () => {
   return (
-    <section className="gallery-section bg-customGreen py-12">
+    <section id="about-section" className="bg-customGreen py-12 z-50">
       <div className="max-w-screen-md mx-auto pt-2">
         <div className="text-center">
           <h6 className="font-semibold text-5.5xl text-black mb-5">

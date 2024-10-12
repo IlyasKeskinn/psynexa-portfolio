@@ -14,16 +14,17 @@ const Hero = () => {
             {/* The background image component */}
             <BackgroundImage />
             {/* The pink brackets on the left on large screens */}
-            <div className='lg:absolute hidden left-0 top-1/2 transform -translate-y-1/2 lg:block'>
+            <div className='lg:absolute hidden left-0 top-[60%] transform -translate-y-1/2 lg:block'>
                 <img src={leftPinkBrackets} alt="leftbrackets" />
             </div>
+
             {/* The asterisk on the bottom right */}
-            <div className='absolute -bottom-6 right-4 transform w-12 h-12'>
-                <img src={asterisk} alt="asterisk"/>
+            <div className='absolute -bottom-6 right-4 transform z-50 h-11 w-11'>
+                <img src={asterisk} alt="asterisk" />
             </div>
             {/* The container for the hero content */}
             <div id="hero-container" className="container mx-auto relative z-10 lg:py-0 py-10">
-                <div className='md:px-8 px-5'>
+                <div className='md:px-2 px-2'>
                     {/* The opening bracket */}
                     <div>
                         <p className='text-customGray md:text-7.5xl text-5xl'> &#123; </p>
